@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import calImage from "../assets/desktop-preview.jpg";
 const Home = () => {
   return (
     <div className="w-screen h-screen flex px-8 border-gray-200 font-['Inter']">
@@ -7,7 +7,7 @@ const Home = () => {
         <Link to="/solution/calculator-app">
           <div className="w-[200px] h-[200px] flex flex-col shadow-md justify-between">
             <img
-              src="../../challenges/calculator-app/design/desktop-preview.jpg"
+              src={calImage}
               alt="calculator app preview"
               className="aspect-auto w-[190px]"
             />
