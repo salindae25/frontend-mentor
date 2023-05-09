@@ -6,7 +6,7 @@ const NumberPad = ({
   handlePress: MouseEventHandler<HTMLButtonElement> | undefined;
 }) => {
   return (
-    <div className="grid w-full bg-calculator-app-secondary grid-cols-4 grid-rows-5 p-6 pb-8 mt-6 gap-5 rounded-md">
+    <div className="grid w-full bg-[var(--calculator-app-keypad-bg)] grid-cols-4 grid-rows-5 p-6 pb-8 mt-6 gap-5 rounded-md">
       <button onClick={handlePress} className="btn-orange">
         7
       </button>
@@ -31,7 +31,7 @@ const NumberPad = ({
       <button onClick={handlePress} className="btn-orange">
         +
       </button>
-      <button onClick={handlePress} className="btn-orange">
+      <button onClick={handlePress} className="btn-orange ">
         1
       </button>
       <button onClick={handlePress} className="btn-orange">
