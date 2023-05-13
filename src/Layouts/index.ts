@@ -1,1 +1,1 @@
-export { default as SolutionLayout } from "./SolutionLayout";
+export { default as SolutionLayout } from './SolutionLayout'

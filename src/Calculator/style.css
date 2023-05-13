@@ -1,133 +1,133 @@
 :root {
-  --calculator-app-main-bg: hsl(222, 26%, 31%);
-  --calculator-app-screen-bg: hsl(224, 36%, 15%);
-  --calculator-app-keypad-bg: hsl(223, 31%, 20%);
+    --calculator-app-main-bg: hsl(222, 26%, 31%);
+    --calculator-app-screen-bg: hsl(224, 36%, 15%);
+    --calculator-app-keypad-bg: hsl(223, 31%, 20%);
 
-  --calculator-app-keypad-key: hsl(0, 0%, 100%);
+    --calculator-app-keypad-key: hsl(0, 0%, 100%);
 
-  --calculator-app-action-bg: hsl(6, 63%, 50%);
-  --calculator-app-action-shadow: hsl(6, 70%, 34%);
-  --calculator-app-action-key: hsl(0, 0%, 100%);
+    --calculator-app-action-bg: hsl(6, 63%, 50%);
+    --calculator-app-action-shadow: hsl(6, 70%, 34%);
+    --calculator-app-action-key: hsl(0, 0%, 100%);
 
-  --calculator-app-white-text: hsl(0, 0%, 100%);
+    --calculator-app-white-text: hsl(0, 0%, 100%);
 
-  --calculator-app-number-bg: hsl(30, 25%, 89%);
-  --calculator-app-number-key: hsl(221, 14%, 31%);
-  --calculator-app-number-shadow: hsl(28, 16%, 65%);
+    --calculator-app-number-bg: hsl(30, 25%, 89%);
+    --calculator-app-number-key: hsl(221, 14%, 31%);
+    --calculator-app-number-shadow: hsl(28, 16%, 65%);
 
-  --calculator-app-clear-bg: hsl(225, 21%, 49%);
-  --calculator-app-clear-key: hsl(0, 0%, 100%);
-  --calculator-app-clear-shadow: hsl(224, 28%, 35%);
+    --calculator-app-clear-bg: hsl(225, 21%, 49%);
+    --calculator-app-clear-key: hsl(0, 0%, 100%);
+    --calculator-app-clear-shadow: hsl(224, 28%, 35%);
 }
-[data-theme="classic"] {
-  --calculator-app-main-bg: hsl(0, 0%, 90%);
-  --calculator-app-screen-bg: hsl(0, 0%, 93%);
-  --calculator-app-keypad-bg: hsl(0, 5%, 81%);
+[data-theme='classic'] {
+    --calculator-app-main-bg: hsl(0, 0%, 90%);
+    --calculator-app-screen-bg: hsl(0, 0%, 93%);
+    --calculator-app-keypad-bg: hsl(0, 5%, 81%);
 
-  --calculator-app-keypad-key: hsl(198, 20%, 13%);
+    --calculator-app-keypad-key: hsl(198, 20%, 13%);
 
-  --calculator-app-action-bg: hsl(25, 98%, 40%);
-  --calculator-app-action-shadow: hsl(25, 99%, 27%);
-  --calculator-app-action-key: hsl(0, 0%, 100%);
+    --calculator-app-action-bg: hsl(25, 98%, 40%);
+    --calculator-app-action-shadow: hsl(25, 99%, 27%);
+    --calculator-app-action-key: hsl(0, 0%, 100%);
 
-  --calculator-app-number-bg: hsl(45, 7%, 89%);
-  --calculator-app-number-key: hsl(60, 10%, 19%);
-  --calculator-app-number-shadow: hsl(35, 11%, 61%);
+    --calculator-app-number-bg: hsl(45, 7%, 89%);
+    --calculator-app-number-key: hsl(60, 10%, 19%);
+    --calculator-app-number-shadow: hsl(35, 11%, 61%);
 
-  --calculator-app-clear-bg: hsl(185, 42%, 37%);
-  --calculator-app-clear-key: hsl(52, 100%, 62%);
-  --calculator-app-clear-shadow: hsl(185, 58%, 25%);
+    --calculator-app-clear-bg: hsl(185, 42%, 37%);
+    --calculator-app-clear-key: hsl(52, 100%, 62%);
+    --calculator-app-clear-shadow: hsl(185, 58%, 25%);
 }
 
-[data-theme="neon"] {
-  --calculator-app-main-bg: hsl(268, 75%, 9%);
-  --calculator-app-screen-bg: hsl(268, 71%, 12%);
-  --calculator-app-keypad-bg: hsl(268, 71%, 12%);
+[data-theme='neon'] {
+    --calculator-app-main-bg: hsl(268, 75%, 9%);
+    --calculator-app-screen-bg: hsl(268, 71%, 12%);
+    --calculator-app-keypad-bg: hsl(268, 71%, 12%);
 
-  --calculator-app-keypad-key: hsl(52, 100%, 62%);
+    --calculator-app-keypad-key: hsl(52, 100%, 62%);
 
-  --calculator-app-action-bg: hsl(176, 100%, 44%);
-  --calculator-app-action-shadow: hsl(177, 92%, 70%);
-  --calculator-app-action-key: hsl(0, 0%, 100%);
+    --calculator-app-action-bg: hsl(176, 100%, 44%);
+    --calculator-app-action-shadow: hsl(177, 92%, 70%);
+    --calculator-app-action-key: hsl(0, 0%, 100%);
 
-  --calculator-app-number-bg: hsl(268, 47%, 21%);
-  --calculator-app-number-key: hsl(52, 100%, 62%);
-  --calculator-app-number-shadow: hsl(290, 70%, 36%);
+    --calculator-app-number-bg: hsl(268, 47%, 21%);
+    --calculator-app-number-key: hsl(52, 100%, 62%);
+    --calculator-app-number-shadow: hsl(290, 70%, 36%);
 
-  --calculator-app-clear-bg: hsl(281, 89%, 26%);
-  --calculator-app-clear-key: hsl(52, 100%, 62%);
-  --calculator-app-clear-shadow: hsl(285, 91%, 52%);
+    --calculator-app-clear-bg: hsl(281, 89%, 26%);
+    --calculator-app-clear-key: hsl(52, 100%, 62%);
+    --calculator-app-clear-shadow: hsl(285, 91%, 52%);
 }
 
 .btn-orange {
-  @apply rounded-md text-center uppercase px-2 pt-1;
-  color: var(--calculator-app-number-key);
-  box-shadow: 0px 5px 0px 0px var(--calculator-app-number-shadow);
-  background-color: var(--calculator-app-number-bg);
+    @apply rounded-md text-center uppercase px-2 pt-1;
+    color: var(--calculator-app-number-key);
+    box-shadow: 0px 5px 0px 0px var(--calculator-app-number-shadow);
+    background-color: var(--calculator-app-number-bg);
 }
 
 .btn-red {
-  @apply rounded-md text-center uppercase px-2 pt-1;
-  color: var(--calculator-app-action-key);
-  box-shadow: 0px 5px 0px 0px var(--calculator-app-action-shadow);
-  background-color: var(--calculator-app-action-bg);
+    @apply rounded-md text-center uppercase px-2 pt-1;
+    color: var(--calculator-app-action-key);
+    box-shadow: 0px 5px 0px 0px var(--calculator-app-action-shadow);
+    background-color: var(--calculator-app-action-bg);
 }
 .btn-blue {
-  @apply rounded-md text-center uppercase px-2 pt-1;
-  font-size: 25px;
-  color: var(--calculator-app-clear-key);
-  box-shadow: 0px 5px 0px 0px var(--calculator-app-clear-shadow);
-  background-color: var(--calculator-app-clear-bg);
+    @apply rounded-md text-center uppercase px-2 pt-1;
+    font-size: 25px;
+    color: var(--calculator-app-clear-key);
+    box-shadow: 0px 5px 0px 0px var(--calculator-app-clear-shadow);
+    background-color: var(--calculator-app-clear-bg);
 }
 .btn-orange:hover,
 .btn-blue:hover,
 .btn-red:hover {
-  filter: brightness(120%);
-  transition: brightness 0.5s;
+    filter: brightness(120%);
+    transition: brightness 0.5s;
 }
 
 .slider {
-  -webkit-appearance: none; /* Remove default styling */
-  width: 60px; /* Set width of slider */
-  height: 15px; /* Set height of slider */
-  padding: 4px;
-  border-radius: 8px;
-  background-color: var(
-    --calculator-app-keypad-bg
-  ); /* Set background color of slider */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set opacity */
-  -webkit-transition: 0.2s; /* Add transition */
-  transition: opacity 0.2s; /* Add transition */
+    -webkit-appearance: none; /* Remove default styling */
+    width: 60px; /* Set width of slider */
+    height: 15px; /* Set height of slider */
+    padding: 4px;
+    border-radius: 8px;
+    background-color: var(
+        --calculator-app-keypad-bg
+    ); /* Set background color of slider */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set opacity */
+    -webkit-transition: 0.2s; /* Add transition */
+    transition: opacity 0.2s; /* Add transition */
 }
 
 /* Set color of slider thumb */
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Remove default styling */
-  appearance: none;
-  width: 12px; /* Set width of thumb */
-  height: 12px; /* Set height of thumb */
-  border-radius: 50%;
-  background: var(
-    --calculator-app-action-bg
-  ); /* Set background color of thumb */
-  cursor: pointer; /* Set cursor */
+    -webkit-appearance: none; /* Remove default styling */
+    appearance: none;
+    width: 12px; /* Set width of thumb */
+    height: 12px; /* Set height of thumb */
+    border-radius: 50%;
+    background: var(
+        --calculator-app-action-bg
+    ); /* Set background color of thumb */
+    cursor: pointer; /* Set cursor */
 }
 
 /* Set color of slider thumb on hover */
 .slider::-webkit-slider-thumb:hover {
-  filter: brightness(120%);
-  transition: brightness 0.5s;
+    filter: brightness(120%);
+    transition: brightness 0.5s;
 }
 
 /* Set color of slider thumb when active */
 .slider::-webkit-slider-thumb:active {
-  filter: brightness(120%);
-  transition: brightness 0.5s;
+    filter: brightness(120%);
+    transition: brightness 0.5s;
 }
 
 /* Set color of slider thumb on focus */
 .slider:focus::-webkit-slider-thumb {
-  filter: brightness(120%);
-  transition: brightness 0.5s;
+    filter: brightness(120%);
+    transition: brightness 0.5s;
 }
